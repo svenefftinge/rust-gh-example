@@ -14,4 +14,8 @@ fn main() {
 
     let zzzzz = rust_gh_example::answer();
     println!("Answer is {}", zzzzz);
+
+    let i = rust_gh_example::factorial(6);
+    println!("{}", i); 
 }
+
